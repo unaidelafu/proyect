@@ -1,0 +1,30 @@
+.footer-wrapper{
+    /*display: flex;*/
+    display: flex;
+    background-color: rgb(54, 56, 63);
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    /*
+    justify-content: center;
+    align-self: center;
+    */
+
+}
+.footer-wrapper > .footer-item{
+    display: flex;
+    width: 25%;   
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(103, 103, 103);
+
+}
+.footer-wrapper > .footer-item p{
+    color: white;
+    /*text-align: center;*/
+
+}
+.footer-wrapper > .footer-item span	{
+    font-size: 26px;
+}

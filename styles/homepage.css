@@ -1,0 +1,78 @@
+.squares-wrapper{
+    background-color: black;
+    /*background: linear-gradient(to left, black, rgb(52, 55, 64));*/
+    background: linear-gradient(to left, black, rgb(76, 79, 87));
+    /*rgb(172, 172, 172)
+    rgb(54, 56, 63)*/
+    width: 100%;
+
+    /*justify-content: left;*/
+    display: flex;
+    justify-content: center; /*Horizontal*/
+    align-items: flex-start;
+    /*
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    */   
+}
+/*
+
+.squares-wrapper > .left-square-wrapper{
+    width: 80%;
+}
+*/
+
+
+/* Left */
+
+.squares-wrapper > .left-square-wrapper{
+    margin: 20px 60px 0px 40px;
+}
+.squares-wrapper > .left-square-wrapper > .text-wrapper p1{
+    /*font-size: 36px;*/
+    color: white;
+    /*opacity: 80%;*/
+    font-size: 2.1em;
+}
+.squares-wrapper > .left-square-wrapper > .text-wrapper p{
+    /*font-size: 32px;*/
+    opacity: 60%;
+    font-size: 1.9em;
+}
+
+.squares-wrapper > .left-square-wrapper > .buttons-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  
+    margin: 0px 10px 0px 10px;
+}
+.squares-wrapper > .left-square-wrapper > .buttons-wrapper > .signUpIndex-btn-wrapper button{
+    padding: 10px 30px;
+    background-color: rgb(75, 206, 121);
+    border: 1px solid rgb(75, 206, 121);
+    color: black;
+    font-size: 2em;
+    border-radius: 2px;
+    outline: none;
+    margin: 0px 20px 0px 0px;
+    transition: 0.3s;
+}
+.squares-wrapper > .left-square-wrapper > .buttons-wrapper > .learnMore-btn-wrapper button{
+    padding: 10px 30px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 2em;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Right */
+.squares-wrapper > .right-square-wrapper{
+    margin: 20px 0px 0px 0px;
+}
+.squares-wrapper > .right-square-wrapper > .image-wrapper img{
+    width: 550px;
+    height: 100%;
+}
