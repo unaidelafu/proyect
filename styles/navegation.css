@@ -1,15 +1,16 @@
 .navigation-wrapper{
-    background-color: black;
-    border-top: 2px solid rgb(182, 180, 182);
     width: 100%;
-    /*width: 1000px;*/
-
     height: 62px;
-    /*display: flex;*/
+
     display: grid;
     grid-template-columns: 0.7fr 2fr 2fr;
+
     justify-content: space-between;
     align-items: center;
+
+    background-color: black;
+    border-top: 2px solid rgb(182, 180, 182);
+
 }
 
 /*Left column*/
@@ -25,26 +26,29 @@
 /*center column*/
 
 .navigation-wrapper > .center-column{
+    width: 320px;
+
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2px;
-    width: 320px;
+    
 }
 
 
 .navigation-wrapper > .center-column > .nav-head{
-    color: yellow;
-
+    /*Set the position on the grid*/
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+
+    color: yellow;
 }
 .navigation-wrapper > .center-column > .links-wrapper{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    /*Set the position on the grid*/
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -52,18 +56,19 @@
 
 }
 .navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
-    /*font-family: 'Ubuntu Condensed', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;*/
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
-    color: white;  
     text-decoration: none;
+
     margin: 0px 15px 0px 0px;
+
+    color: white;  
     transition: 0.5s;
 }
-.navigation-wrapper > .center-column > .links-wrapper > .nav-link a:hover {
-    color: rgb(75, 206, 121);
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a:hover {   
     letter-spacing: 2px;
+    
+    color: rgb(75, 206, 121);
 }
 
 .navigation-wrapper > .center-column > .center-dropdown button{
