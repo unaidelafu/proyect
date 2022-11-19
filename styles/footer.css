@@ -1,15 +1,9 @@
 .footer-wrapper{
-    /*display: flex;*/
     display: flex;
-    background-color: rgb(54, 56, 63);
+    height: 45px;
     justify-content: space-between;
     align-items: center;
-    height: 45px;
-    /*
-    justify-content: center;
-    align-self: center;
-    */
-
+    background-color: rgb(54, 56, 63);
 }
 .footer-wrapper > .footer-item{
     display: flex;
@@ -22,8 +16,6 @@
 }
 .footer-wrapper > .footer-item p{
     color: white;
-    /*text-align: center;*/
-
 }
 .footer-wrapper > .footer-item span	{
     font-size: 26px;
